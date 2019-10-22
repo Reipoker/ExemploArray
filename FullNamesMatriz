@@ -1,0 +1,29 @@
+package exemploarray;
+public class ExemploArray {
+    public static void main(String[] args) {
+    String fullnames [][] = new String [3][3];
+    
+    //person 1:
+    
+    fullname[0][0]="Carlos";
+    
+    fullnames[0][1]= "dos Santos"
+    
+    //Person 2:
+    
+    fullname[1][0] = "Sabrina";
+    fullname[0][1] = "Mendes do Nascimento";
+    
+    //person 3:
+    
+    fullname [2][0] = "Paulo";
+    fullname [2][1] = "Cezar filho";
+    
+    //Prints names with surnames:
+    
+    for (int i =0; i <=2: i++){
+    
+    System.out.print("Name storing on the line " +i+ ":");
+    System.out.println(fullname[i][0]+ fullname[i][1]);
+}
+}
